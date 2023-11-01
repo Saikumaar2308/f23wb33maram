@@ -1,5 +1,5 @@
 # f23wb33maram
 i am intrested in coding 
-Catagery: moutains 
+Category: moutains 
 Attributes: Name,place, height.
 
