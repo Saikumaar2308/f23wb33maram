@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  
+
+  - let Output = [{ mountainName: "Nilgiri", Height: 2765, place: "Haryana"},{mountainName: "Satpura", Height: 3785, place: "jammu"},{mountainName: "Shivalik", Height: 2135, place: "Himalaya"}] 
+
+  div.container-fluid
+    div.row
+        each Moutains, index in Output
+            div.col-sm-2
+                p MoutainsName: #{Moutains.mountainName}
+                p height : #{Moutains.Height}
+                p Place : #{Moutains.place}
